@@ -8,7 +8,6 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -41,11 +40,11 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-   
+
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <img src="img/testimonials/image1.jpg" alt="image0" style="height: 50px;"> 
+        <h1 class="sitename">portfolio</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -53,8 +52,8 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-         <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -67,19 +66,20 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
+ <div class="wrapper">
+      <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in">
 
-      <img src="hero-bg.png" alt="" data-aos="fade-in">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Khadija Nasrudin <br></h2>
-        <p>I'm <span class="typed" data-typed-items="stay Home mom,beginner in web developer">beginner in web development</span> </p>
+     <div class="container" data-aos="fade-up" style="text-align: left;">
+        <h2>Khadija Nasrudin<br></h2>
+        <p>I'm <span class="typed" data-typed-items="Junior Web Developer, Stay Home Mom">Junior Web Developer</span></p>
         <div class="social-links">
-          <a href="https://x.com/begam_nasrudin"><i class="bi bi-twitter-x"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=61551334466068"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/?next=%2F&hl=en"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/khadija-nasrudin-3b0616320/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/begam_nasrudin"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61551334466068"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/?next=%2F&hl=en"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/khadija-nasrudin-3b0616320/"><i class="bi bi-linkedin"></i></a>
         </div>
-      </div>
+    </div>
+</div>
 
     </section><!-- /Hero Section -->
 
@@ -92,12 +92,14 @@
 
       </div><!-- End Section Title -->
 
-    <div class="row gy-4 justify-content-between">
-      <div class="col-lg-4 profile-imgalign-self-start">
-        <img src="image.jpg" class="img-fluid" alt="Profile image of Khadija Nasrudin" style="height: 350px; width: 400px;">
-      </div>
-      <div class="col-lg-8 content">
-        <p>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-4 profile-img align-self-start">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt=""style="height: 350px; width: 400px;">
+          </div>
+          <div class="col-lg-7 content">
+     <p>
           Hi, I'm Khadija Nasrudin,  a dedicated stay-at-home mom who’s embarking on an exciting new journey into web development. After spending years managing a busy household, I’m excited to dive into the world of coding and design. I’m eager to leverage my organizational skills and creativity to build engaging, user-friendly websites.<br><br>
           For several years, I’ve managed a bustling household, honing my skills in multitasking, organization, and problem-solving. My experience as a stay-at-home mom has taught me to manage time efficiently and tackle challenges with a positive attitude. Now, I’m channeling these skills into learning web development, eager to contribute to the tech world and build a career that offers flexibility and creativity.
         </p>
@@ -108,7 +110,7 @@
 
     </section><!-- /About Section -->
 
-    <!-- Services Section -->
+   <!-- Services Section -->
     <section id="services" class="services section">
 
       <!-- Section Title -->
@@ -118,11 +120,7 @@
         <p> Develop clean and responsive websites using HTML, CSS. Ideal for personal blogs, portfolios, or small business landing pages.</p>
       </div><!-- End Section Title -->
 
-      
-
-  
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
@@ -138,11 +136,11 @@
                 "type": "bullets",
                 "clickable": true
               }
-            }
+            
           </script>
-        
 
-    <!-- Portfolio Section -->
+  
+  <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 
       <!-- Section Title -->
@@ -150,10 +148,7 @@
         <h2>Portfolio</h2>
         <p>Juggling the responsibilities of a stay-at-home mom with the excitement of learning web development, I want to create thoughtful and functional websites that will showcase my commitment to excellence and attention to detail.</p>
       </div>
-      
-      
- 
-  <!-- End Section Title -->
+      <!-- End Section Title -->
     <title>Skills of a Stay-at-Home Mom & Junior Web Developer</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -251,7 +246,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
-    <!-- Contact Section -->
+
+       <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
@@ -333,8 +329,7 @@
     </section><!-- /Contact Section -->
 
   </main>
-
-  <footer id="footer" class="footer light-background">
+ <footer id="footer" class="footer light-background">
     <div class="container">
       
       <p>"Thanks for visiting my portfolio! Feel free to reach out with any questions or project ideas. Let’s turn your vision into a stunning reality together!".</p>
@@ -359,6 +354,7 @@
       </div>
     </div>
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

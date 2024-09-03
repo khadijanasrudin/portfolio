@@ -649,8 +649,8 @@ section,
   position: relative;
   padding: 80px 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: centre;
+  justify-content: centre;
 }
 
 .hero img {
@@ -674,6 +674,8 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
+  text-align: left; /* Align text to the left */
+
 }
 
 .hero h2 {
@@ -723,7 +725,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about .profile-img {
-  border: 20px solid var(--accent-color);
+/*  border: 20px solid var(--accent-color);*/
   padding: 0;
 }
 
